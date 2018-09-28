@@ -16,13 +16,13 @@ parameters:
     type: string
     label: Image name or ID
     description: Image to be used for compute instance
-    default: bcedbefb-9b05-43a6-8a04-93321066131e
+    default: 40e1794e-6471-4c9b-9327-2b762ca0c135
 
   flavor:
     type: string
     label: Flavor
     description: Type of instance (flavor) to be used
-    default: m1.small
+    default: ACCHT18.normal
 
   key:
     type: string
@@ -34,7 +34,7 @@ parameters:
     type: string
     label: Public network name or ID
     description: Public network with floating IP addresses.
-    default: public
+    default: Public External IPv4 Network
 
 # Resource allocation
 resources:
